@@ -1,7 +1,7 @@
 {
-  "name": "sample-nextjs-typescript-jest",
-  "version": "1.0.3",
-  "description": "Next.js starter with TypeScript, Jest, Testing-Library",
+  "name": "nextjs-typescript-styled_components-jest-testing_library",
+  "version": "1.0.0",
+  "description": "Next.js starter with TypeScript, Styled-Components, Jest, Testing-Library",
   "keywords": [
     "Next.js starter",
     "Next.js",
@@ -13,9 +13,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/celikmus/sample-nextjs-typescript-jest.git"
+    "url": "https://github.com/celikmus/nextjs_starter-typescript-styled_components.git"
   },
-  "homepage": "https://github.com/celikmus/sample-nextjs-typescript-jest#readme",
+  "homepage": "https://github.com/celikmus/nextjs_starter-typescript-styled_components#readme",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -26,7 +26,8 @@
   "dependencies": {
     "next": "^11.1.2",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -36,6 +37,7 @@
     "@types/node": "^16.10.2",
     "@types/react": "^17.0.26",
     "babel-jest": "^27.2.4",
+    "babel-plugin-styled-components": "^1.13.2",
     "eslint": "^7.32.0",
     "eslint-config-next": "^11.1.2",
     "identity-obj-proxy": "^3.0.0",

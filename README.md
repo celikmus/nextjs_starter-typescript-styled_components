@@ -1,9 +1,9 @@
-# Next.js Typescript Jest Testing-Library starter
+# Next.js starter: Typescript, Styled-Components, Jest, Testing-Library
 
 To start a new project:
 
 ```bash
-npx create-next-app my-new-project --example "https://github.com/celikmus/sample-nextjs-typescript-jest"
+npx create-next-app my-new-project --example "https://github.com/celikmus/nextjs_starter-typescript-styled_components"
 cd my-new-project
 yarn dev
 # or npm run dev
